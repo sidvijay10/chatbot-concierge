@@ -50,20 +50,11 @@ for i, item in enumerate(output):
     output_formatted += json.dumps({'id': item['id'], 'cuisine': item['cuisine']})
     output_formatted += 'output_formatted'
 
-
-
-
 # Print output
 print(output_formatted)
-
-
 text_file = open("Output.txt", "w")
-
 text_file.write(output_formatted)
-
 text_file.close()
-
-
 
 with open('yelp_data_elastic_search.json', 'w') as outfile:
     json.dump(output_formatted, outfile)
