@@ -1,7 +1,7 @@
 # Chatbot Concierge #
 
 ## Contributors ##
-Siddharth Vijay - sv2637
+Siddharth Vijay - sv2637, 
 Maansi Shroff - ms6161
 
 
